@@ -16,15 +16,15 @@ O Site é composto de 4 ancoragens principais
 
 Contem apresentação do que o aluno ira aprender
 
-#### Sobre
+### Sobre
 
 Descrição sobre as informações de aprendizado
 
-##### Plano
+#### Plano
 
 Preço dos cursos
 
-##### Plano Feedback
+#### Plano Feedback
 
 Comentario de clientes satisfeitos
 
