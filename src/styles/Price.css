@@ -1,0 +1,99 @@
+.price{
+    margin-top: 3rem;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.price h3{
+    text-align: center;
+}
+
+.price span {
+    color: var(--color-special);
+    font-size: 1.5rem;
+
+}
+
+.priceContainer{
+    display: flex;
+    gap:1rem;
+    margin-top: 2rem;
+}
+
+.packs{
+    padding: 0.5rem 2rem;
+    border: 1px solid var(--color-special);
+    border-radius: .5rem;
+}
+
+.packs-title{
+    text-align: center;
+    color: var(--color-special);
+    font-size: 2rem;
+}
+
+.packs-parcel{
+    color: var(--color-special);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.packs-price{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.check{
+    display: flex;
+    margin-bottom: 1rem;
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+
+.packs-advantages{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.packs-advantages img{
+    margin-top: 1rem;
+}
+
+.packs-advantages span{
+    color: var(--color-light-050);
+    font-size: 1rem;
+}
+
+.btn{
+    margin-top: 0.5rem;
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: var(--color-special);
+    border: 1px solid var(--color-light-050);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn:hover{
+    background-color: rgb(247, 206, 103);
+    transition: 0.5s;
+}
+
+.btn:active{
+    transform: scale(0.95);
+}
+
+/*=================================================Responsive 960px==============================================*/
+
+@media(max-width: 960px){
+    .priceContainer{
+    flex-direction: column;
+}
+}

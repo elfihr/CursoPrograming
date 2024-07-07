@@ -1,0 +1,95 @@
+.Hero{
+    display: flex;
+    margin-top: 6rem;
+    text-align: center;
+    padding:0 2rem;
+}
+
+.titleSpan{
+color: var(--color-special);
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{
+    margin-top: 1.5rem ;
+    padding: 1rem;
+}
+
+.titleStartButton{
+    display: flex;
+    gap: 4rem;
+}
+
+.titleStart{
+    margin-top: 2rem;
+    width: 6rem auto;
+    height: 3rem;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-light-050);
+    background: var(--color-special);
+    border-radius: 0.5rem;
+    border: 2px solid white; 
+}
+.titleStart:hover{
+    color: var(--color-dark-800);
+    background: var(--color-light-050);
+    transition: 0.5s;
+}
+
+.doc{
+    color: var(--color-light-050);
+    border: 2px solid var(--color-light-050); 
+    background: none;
+}
+
+.doc:hover{
+    color: var(--color-light-050);
+    border: 2px solid var(--color-light-050); 
+    background: var(--color-special);
+    transition: 0.5s; 
+}
+
+.titleStart:active{
+    transform: scale(0.95);
+}
+
+/* =========Videos========= */
+
+.video{
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.video video{
+ width: 20rem;
+ height: 11.5rem;
+ border-radius: .5rem;   
+ border: 1px solid var(--color-special)
+}
+
+/*=================================================Responsive 655px==============================================*/
+
+@media (max-width: 655px) {
+    .video {
+        flex-direction: column;
+    }
+}
+
+/*=================================================Responsive 446px==============================================*/
+
+@media (max-width:446px){
+    .titleStartButton{
+    flex-direction: column;
+    gap:0
+}
+}
