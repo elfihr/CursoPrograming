@@ -2,11 +2,11 @@
 
 Projeto com bastante responsavidade e interatividade usando react
 
-Deploy: xxx
+Deploy: https://curso-programing.vercel.app/
 
 ## Sobre o site
 
-O Site é composto de 4 pagiancoragens principais
+O Site é composto de 4 ancoragens principais
 -Triha
 -Sobre
 -Planos
