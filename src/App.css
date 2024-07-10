@@ -9,6 +9,10 @@
   color-scheme: dark;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --color-light-050: #FFF8F3;
 
@@ -17,7 +21,5 @@
   --color-special:goldenrod;
 
 }
-body{
-  padding: 2px;
-}
+
 

@@ -2,7 +2,7 @@
     display: flex;
     margin-top: 6rem;
     text-align: center;
-    padding:0 2rem;
+    padding:0 10rem;
 }
 
 .titleSpan{
@@ -83,6 +83,9 @@ color: var(--color-special);
     .video {
         flex-direction: column;
     }
+    .Hero{
+        padding: 0 3rem
+    }
 }
 
 /*=================================================Responsive 446px==============================================*/
@@ -91,5 +94,8 @@ color: var(--color-special);
     .titleStartButton{
     flex-direction: column;
     gap:0
+}
+.Hero{
+    padding: 0 1rem
 }
 }
