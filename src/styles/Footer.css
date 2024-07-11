@@ -6,11 +6,11 @@
     margin-top: 2rem;
 }
 .footer{
-    margin-top: 1rem;
+    margin: 1rem 0;
     gap: 3rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);/*3 colunas um para cada div*/
-    padding: 1rem 5rem;
+    
 }
 
 .footer01 h3, .footer02 h3, .footer03 h3{

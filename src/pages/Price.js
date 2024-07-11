@@ -20,7 +20,7 @@ function Price() {
                                 <ul>{price.features.map((features, index) => {
                                     return (
                                         <li className='packs-advantages'>
-                                            <img className='check' src={check} />
+                                            <img className='check' src={check} alt='vantagens do pacote'/>
                                             <span>{features}</span>                                         
                                         </li>
                                     )

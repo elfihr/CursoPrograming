@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding:  1rem 10%;
+    padding:  2rem 10%;
     backdrop-filter: blur;
     background-color: rgb(8, 7, 6);
     align-items: center;
@@ -21,7 +21,6 @@
     color: white;
     margin-left: 40px;
     text-decoration: none;
-    margin-left: 2.5em;
     font-size: 1.2em;
     font-weight: 500;
     border-bottom: none;
@@ -73,7 +72,7 @@
 
 /*posição menuBar*/
 .iconMenu{
-    bottom:10px;
+    bottom:25px;
     right: 10px;
     position: absolute;
     font-size: 2rem;
@@ -81,6 +80,15 @@
     display: none;
     color: white;
     padding: 5px 0;
+}
+
+/*=================================================Responsive 970==============================================*/
+
+@media (max-width: 970px) {
+    .navBarBuy{
+        margin-left: 1rem;
+        padding: 8px 14px;
+    }
 }
 
 /*=================================================Responsive 768px==============================================*/

@@ -12,7 +12,7 @@ const Clients = () => {
                     return (
                         <div className='clients-main' key={index}>
                             <div className='container'>
-                                <img src={client.image}/>
+                                <img src={client.image} alt='imagem de oculos'/>
                                 <h6>{client.user}</h6>
                                 
                             </div>

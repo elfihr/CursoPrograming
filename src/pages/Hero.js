@@ -12,7 +12,7 @@ const Hero = () => {
           na programação começa aqui, o que esta esperando? Invista no seu futuro,
           aprendendo as tecnologias HTML,CSS,Javascripr e Java. Nao perca mais tempo, o mundo da tecnologia te espera. Vamos juntos!</p>
         <div className='titleStartButton'>
-          <a href='#' className='titleStart'>Comece Agora</a>
+          <a href='#preco' className='titleStart'>Comece Agora</a>
           <a href='#' className='titleStart doc'>Documentação</a>
         </div>
         <div className='video'>

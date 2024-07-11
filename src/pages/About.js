@@ -11,14 +11,14 @@ const About = () => {
             <span>SOBRE</span>
             <h3>O que voce irá Aprender</h3>
             <div className='aboutContainer'>
-                <img className='image' src={code} />
+                <img className='image' src={code} alt='img de aprender'/>
                 <div className='ContainerExplain'>
                     {checklistItems.map((item, index) => {
                         return (
                             <div key={index}>
                                 <div className='description'>
                                     
-                                    <img src={check}></img>
+                                    <img src={check} alt='imagem de checar'></img>
                                     <div>
                                     {item.title}
                                     {item.description}
